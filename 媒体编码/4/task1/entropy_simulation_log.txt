@@ -1,0 +1,70 @@
+Entropy coding simulation log
+Image: lena.png, blocks: 4096
+
+-- Global static Huffman --
+bits: 376359, rate(bpsym): 1.435696, time: 0.031710, decode_ok: True
+
+-- Dynamic Huffman (per-block) --
+total bits: 327409, rate(bpsym): 1.248966, time: 0.057278, decode_ok: True
+
+Per-block dynamic sizes (first 50 blocks):
+block 0000: bits=66
+block 0001: bits=69
+block 0002: bits=70
+block 0003: bits=66
+block 0004: bits=74
+block 0005: bits=69
+block 0006: bits=69
+block 0007: bits=77
+block 0008: bits=72
+block 0009: bits=70
+block 0010: bits=67
+block 0011: bits=66
+block 0012: bits=67
+block 0013: bits=66
+block 0014: bits=68
+block 0015: bits=69
+block 0016: bits=64
+block 0017: bits=68
+block 0018: bits=64
+block 0019: bits=66
+block 0020: bits=66
+block 0021: bits=64
+block 0022: bits=66
+block 0023: bits=67
+block 0024: bits=66
+block 0025: bits=66
+block 0026: bits=67
+block 0027: bits=64
+block 0028: bits=66
+block 0029: bits=64
+block 0030: bits=67
+block 0031: bits=69
+block 0032: bits=67
+block 0033: bits=64
+block 0034: bits=67
+block 0035: bits=66
+block 0036: bits=64
+block 0037: bits=64
+block 0038: bits=66
+block 0039: bits=69
+block 0040: bits=74
+block 0041: bits=74
+block 0042: bits=69
+block 0043: bits=64
+block 0044: bits=69
+block 0045: bits=66
+block 0046: bits=64
+block 0047: bits=66
+block 0048: bits=66
+block 0049: bits=69
+
+-- CAVLC(sim) --
+bits: 307180, rate(bpsym): 1.171799, time: 0.064853
+
+-- CABAC(sim estimate) --
+estimated_bits(entropy): 260610.897, rate(bpsym): 0.994152, time: 0.385675
+
+Remarks:
+- 动态 Huffman 在解码时对每块都单独解码，已验证无误。
+- CABAC 为仿真估计，给出熵近似作为对比。

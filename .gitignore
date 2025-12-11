@@ -1,0 +1,5 @@
+experiment_results/
+*.png
+*.mp4
+*.yuv
+*.y4m

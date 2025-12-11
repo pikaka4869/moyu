@@ -1,0 +1,6 @@
+Context optimization summary (k-means groups if available):
+qs=0.50: static=1.7057, dyn=1.4413, cavlc=1.8271, arith=1.3591, ctx=1.3406, PSNR=37.77
+qs=1.00: static=1.4357, dyn=1.2490, cavlc=1.1718, arith=0.9293, ctx=0.9117, PSNR=35.75
+qs=1.50: static=1.3256, dyn=1.1744, cavlc=0.9071, arith=0.7401, ctx=0.7239, PSNR=34.56
+qs=2.00: static=1.2619, dyn=1.1328, cavlc=0.7542, arith=0.6252, ctx=0.6090, PSNR=33.67
+qs=3.00: static=1.1919, dyn=1.0886, cavlc=0.5851, arith=0.4930, ctx=0.4787, PSNR=32.31
