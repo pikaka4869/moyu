@@ -3,3 +3,4 @@ experiment_results/
 *.mp4
 *.yuv
 *.y4m
+log/
