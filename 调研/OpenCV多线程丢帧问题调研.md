@@ -466,3 +466,19 @@ if __name__ == "__main__":
     main()
 
 ```
+
+
+Bus 002 Device 001: Linux Foundation 3.0 root hub
+Bus 002 Device 002: ASM1074 SuperSpeed hub
+Bus 002 Device 005: Genesys Logic USB3.1 Hub
+Bus 002 Device 006: Genesys Logic USB3.1 Hub
+
+这说明： USB 3.x 高速通道是空的
+
+ID 05e3:0608 Genesys Logic, Inc. Hub
+ID 05e3:0610 Genesys Logic, Inc. Hub
+ID 174c:2074 ASMedia Technology Inc. ASM1074 High-Speed hub
+
+High-Speed      480 Mb/s（USB 2.0）
+这些 Hub 本身就是 USB 2.0 Hub
+
